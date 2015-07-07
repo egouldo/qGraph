@@ -9,3 +9,16 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
+
+```{r gen_veg_dat}
+veg_data <- wakefield::r_data_frame(
+  n = 370,
+  Transect = paste0('t', rep(1:37, each=10)),
+  Manage = rep(wakefield::color(37, 4), each=10),
+  r_series(r_sample, 4, name="veg_type")
+)  
+
+veg_data
+```
+
+

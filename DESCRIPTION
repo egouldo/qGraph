@@ -1,10 +1,13 @@
 Package: qGraph
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9001
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph)
+Title: QAECO graphics!
+Version: 0.0.0.9002
+Authors@R: person(c("William", "Keith"), "Morris", email = "wkmor1@gmail.com", role = c("aut", "cre"))
+Description: This package is a collaborative project of the Quantitative and applied ecology group.
 Depends: R (>= 3.2.1)
 Imports:
+    wakefield,
+    magrittr,
+    ggplot2,
 License: GPL-3
 LazyData: true
 Suggests: knitr
